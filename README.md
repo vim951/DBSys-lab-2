@@ -2,7 +2,7 @@
 
 ## Context
 
-This is the git repository associed with the work of Victor MASIAK and Hugo DANET regarding the part 2 of DBSys Lab Assignments (EURECOM 2020).
+This is the git repository associed with the work of Victor MASIAK and Hugo DANET for the part 2 of DBSys Lab Assignments (EURECOM 2020).
 
 ## Structure
 
@@ -36,4 +36,8 @@ cc Hugo :)
 
 ## How we structured the project
 
-We tried to respect as much as possible the concepts of encapsulation and of delegation. Therefore, we created some additional classes in order to make it extra simple to upgrade to other data structures as suggested in the paper.
+We tried to respect as much as possible the concepts of encapsulation and of delegation. Therefore, we created some additional classes in order to make it extra simple to upgrade to other data structures as suggested in the paper:
+* LastDataStructure
+* Last
+* HistoricDataStructure
+* Historic
