@@ -4,7 +4,7 @@
 
 This is the git repository associed with the work of Victor MASIAK and Hugo DANET for the part 2 of DBSys Lab Assignments (EURECOM 2020).
 
-## Structure
+## Structure of the repository
 
 This repository contains 4 directories :
 * Reference : contains the assignment and the original paper.
@@ -19,20 +19,6 @@ In order to run the test file, the following command will NOT work:
 `javac javaminibase/src/tests/BMTest2020.java`
 
 Indeed, due to errors in some files unrelated to the assignment, the code will not compile.We advise you to open it in Eclipse, and to run the tests/BMTest2020.java file: Eclipse will allow you to ignore the errors since the concerned files are not executed.
-
-## Explanation
-
-### FIFO
-
-With this approach, the first page that was read to the memory buffer is considered for page replacement if its pin count=0.
-
-### LIFO
-
-With this approach, the last page that was read to the memory buffer is considered for page replacement if its pin count=0.
-
-### LRUK
-
-cc Hugo :)
 
 ## How we structured the project
 
